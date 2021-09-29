@@ -19,4 +19,6 @@ Cuando le pido a la computadora que realice este `for`, la computadora hará lo 
 
 ## `&&`, `||`, `!`
 
-Las condición que le pedimos a la computadora que revise cuando le pedimos que haga un `for` o un `if` no tiene que ser una sola, también le podemos pedir que verifique 2 condiciones al mismo tiempo.
+La condición que le pedimos a la computadora que revise cuando le pedimos que haga un `for` o un `if` no tiene que ser una sola, también le podemos pedir que verifique 2 condiciones al mismo tiempo. Si queremos que la computadora sólo continue realizando las instrucciones dentro de un `if` or un `for` si las dos conduciones se cumplen utilizaremos `&&`; si queremos que la computadora continue realizando instrucciones cuando alguna de dos condiciones se cumplan, utilizaremos `||` entre las condiciones. 
+
+Por último, también podemos pedirle a la computadora que nos de el valor opuesto de un booleano, recordando que todas las condiciones que usamos en la instrucción `if` y `for` solo pueden ser ciertas o falsas. si utilizamos el símbolo `!` la computadora cambiará un cierto por un falso y viseversa. También cambiará un igual por diferente: a === b significa "a es igual a b" para la computadora en cambio a !== b significa "a NO es igual a b". 
