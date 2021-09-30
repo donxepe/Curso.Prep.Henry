@@ -1,0 +1,5 @@
+# Arrays
+
+Así como las variables son apodos para números, booleanos y palabras, los `arrays` nos dejan ponerle podo a una `lista` de números, palabras y booleanos. Para poder pedirle un elemento de la lista, podemos decirle a la computadora en que posición se encuentra el dato que queremos: arreglo[4] por ejemplo, nos devolverá el 5° elemento (también conocido como el elemento con el índice 4) que del array o arreglo (recordando siempre que el primer elemento de un arreglo se encuentra en la posición 0). También podemos usar los índices de un arreglo para pedirle a la computadora que sustituya el dato que ahí se encuentra.
+
+Los arreglos tienen unas instrucciones especiales que nos permiten pedirle a la computadora que agregue elementos al principio o final del arreglo, que los quite del principio y del final, que nos de el tamaño del array, etc.
