@@ -132,7 +132,13 @@ function sortArray(arr) {
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
 
-  var oredenado = arr.map(function(value){return value.length()})
+  var oredenado = []
+  var pivot = arr[0]
+
+  for (let i = 0; i < arr.length; i++) {
+    const word = arr[i];
+    if (pivot.length > )
+  }
 
   return ordenado
 
