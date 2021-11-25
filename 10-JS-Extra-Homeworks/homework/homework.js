@@ -90,6 +90,20 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+
+  var cadena = numero.toString()
+  var reverseCadena = []
+
+  for (let i = cadena.length; i >= 0; i--) {
+    const num = cadena[i];
+    reverseCadena.push(num)
+  }
+
+  if (reverseCadena.join('') === cadena) {
+    return "Es capicua"
+  } 
+
+  return "No es capicua"
 }
 
 
@@ -97,6 +111,19 @@ function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+
+  var retorno = []
+  var noletra = 'abc'
+
+  for (let i = 0; i < cadena.length; i++) {
+    const letra = cadena[i];
+    if (noletra.search(letra) == -1 ){
+    retorno.push(letra)
+    } 
+  }
+
+  return retorno.join('')
+
 }
 
 
@@ -104,6 +131,12 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
+
+  var oredenado = arr.map(function(value){return value.length()})
+
+  return ordenado
+
+
 }
 
 
